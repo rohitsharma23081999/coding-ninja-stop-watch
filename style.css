@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  margin-top: 200px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* ---------------------whole container ----------------------------- */
+.container {
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+}
+/* -----------------------heading----------------------- */
+h1 {
+  height: 9px;
+}
+#secondHeading {
+  color: white;
+}
+/* -------------------------screen css------------------------------ */
+#screen {
+  margin-top: 100px;
+  font-size: 80px;
+  display: flex;
+  margin-left: 24%;
+}
+#screen > h2 {
+  font-size: 40px;
+  margin-top: -40px;
+  text-align: center;
+  margin: auto;
+  margin-inline: 7px;
+}
+#dot {
+  font-size: 40px;
+  margin-top: -4px;
+}
+/* -------------------button css---------------------- */
+button {
+  font-size: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn-start {
+  transition: transform 450ms;
+  background-color: black;
+  color: white;
+}
+#btn-start:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  color: green;
+}
+#btn-stop {
+  transition: transform 450ms;
+  background-color: black;
+  color: white;
+}
+#btn-stop:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  color: red;
+}
+#btn-reset {
+  transition: transform 450ms;
+  background-color: black;
+  color: white;
+}
+#btn-reset:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  color: pink;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding ninja stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="firstHeading">CodinG ninJa</h1>
+      <h1 id="secondHeading">StopWatcH</h1>
+      <!-- ---------------------screen-------------------------- -->
+      <div id="screen">
+        <h2 id="hour">00</h2>
+        <div id="dot">:</div>
+        <h2 id="minute">00</h2>
+        <div id="dot">:</div>
+        <h2 id="second">00</h2>
+        <div id="dot">:</div>
+        <h2 id="mili">00</h2>
+      </div>
+      <!-- ----------------buttons---------------------- -->
+      <button type="button" onclick="start()" id="btn-start">Start</button>
+      <button type="button" onclick="stop()" id="btn-stop">Stop</button>
+      <button type="button" onclick="reset()" id="btn-reset">Reset</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
