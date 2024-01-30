@@ -7,9 +7,9 @@ let timer = false;
 
 function start() {
   timer = true;
-  myFAn();
+  brainOfStopWatch();
 }
-function myFAn() {
+function brainOfStopWatch() {
   if (timer == true) {
     milisecond++;
     if (milisecond == 100) {
@@ -37,7 +37,7 @@ function myFAn() {
     if (hour < 10) {
       getHour = "0" + hour;
     }
-    setTimeout("myFAn()", 10);
+    setTimeout("brainOfStopWatch()", 10);
 
     document.getElementById("mili").textContent = milisecond;
     document.getElementById("second").textContent = getSecond;
