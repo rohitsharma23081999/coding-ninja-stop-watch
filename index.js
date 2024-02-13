@@ -49,7 +49,6 @@ function brainOfStopWatch() {
 // ------------------------------code stop function----------------------
 function stop() {
   timer = false;
-  myFAn();
   return;
 }
 // ---------------------code reset function----------------------------
